@@ -20,3 +20,9 @@ def calculator():
     print("4. Division")
     print("5. Exit")
 
+      while True:
+        choice = input("\nEnter your choice (1/2/3/4/5): ")
+
+        if choice == '5':
+            print("Exiting the calculator. Goodbye!")
+            break

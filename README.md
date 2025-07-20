@@ -1,6 +1,7 @@
 Repository for Python project and question practice
 
 #Basic Calculator in Python
+
 def add(a, b):
     return a + b
 

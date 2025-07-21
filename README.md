@@ -31,3 +31,8 @@ def calculator():
         if choice == '5':
             print("Exiting the calculator. Goodbye!")
             break
+
+        if choice in ['1', '2', '3', '4']:
+            try:
+                num1 = float(input("Enter the first number: "))
+                num2 = float(input("Enter the second number: "))
